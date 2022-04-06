@@ -1,0 +1,19 @@
+<template>
+
+<div class="divForBorder event">
+   <p>Event Details</p>
+   <p>event name: <input type="text" name="Event Name" onchange={inputChanged}></p>
+   <p>event date: <input type="date" name="Event Date" onchange={inputChanged}></p>
+   <p>place: <input type="text" name="Event Place" onchange={inputChanged}></p>
+   <p>description: <input type="text" name="Event Description" onchange={inputChanged}></p>
+</div><br>
+
+<div class="divForBorder contributor">
+   <p>Contributor Data</p>
+   <p>name: <input type="text" name="Contributor Name" onchange={inputChanged}></p>
+   <p>surname: <input type="text" name="Contributor Surname" onchange={inputChanged}></p>
+   <p>date of birth: <input type="date" name="Contributor Birthdate" value="Birthdate" onchange={inputChanged}></p>
+   <p>email: <input type="email" name="Contributor Email" onchange={inputChanged}></p>
+</div>
+
+</template>
